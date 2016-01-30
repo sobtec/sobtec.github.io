@@ -15,7 +15,7 @@ body {
   margin-bottom: 13px;
 }
 .navigationbar li a {
-  font-size: 40px;
+  font-size: 38.5px;
   color: #231f20;
   font-weight: bold;
 }
@@ -33,8 +33,13 @@ body {
   text-align: center;
 }
 .calendar-activity hr {
-	border-top: 0;
-	border-bottom: 3px dashed #000;
+  border-top: 0;
+  border-bottom: 3px dashed #000;
+}
+.calendar-activity h2 {
+  font-family: VT323;
+  font-weight: normal;
+  line-height: 20px;
 }
 
 footer h1 {
@@ -50,6 +55,7 @@ footer .location {
 footer .brand {
   border-top: 3px dashed;
   border-bottom: 3px dashed;
+  font-family: VT323;
 }
 footer .background {
   height: 200px;
