@@ -23,6 +23,20 @@ body {
   text-decoration: underline;
 }
 
+/* BODY */
+.body {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* CALENDAR */
+.calendar-day h1 {
+  text-align: center;
+}
+.calendar-activity hr {
+	border-top: 0;
+	border-bottom: 3px dashed #000;
+}
+
 footer h1 {
   margin-bottom: 40px;
 }
