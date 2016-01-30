@@ -9,10 +9,10 @@ body {
 }
 
 .header {
-	margin-top: 50px;
+  margin-top: 50px;
 }
 .navigationbar li {
-	margin-bottom: 13px;
+  margin-bottom: 13px;
 }
 .navigationbar li a {
   font-size: 40px;
@@ -24,24 +24,23 @@ body {
 }
 
 footer h1 {
-	margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 footer .mwc-1 address p {
-	margin: 0;
-	font-weight: bold;
+  margin: 0;
+  font-weight: bold;
 }
-
 footer .location {
-	text-decoration: underline;
+  text-decoration: underline;
 }
-
 footer .brand {
-	border-top: 3px dashed;
-	border-bottom: 3px dashed;
+  border-top: 3px dashed;
+  border-bottom: 3px dashed;
+}
+footer .background {
+  height: 200px;
+  background-image: url("../img/background.png");
+  background-repeat: repeat-x;
+  margin-top: 50px;
 }
 
-@media (max-width: 979px)
-.navbar-collapse .nav>li a,
-.navbar-collapse .nav>li a:hover {
-  color: #231f20;
-}
