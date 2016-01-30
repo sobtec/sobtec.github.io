@@ -4,6 +4,44 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71;
+  color: #231f20; 
   background: #fff200;
+}
+
+.header {
+	margin-top: 50px;
+}
+.navigationbar li {
+	margin-bottom: 13px;
+}
+.navigationbar li a {
+  font-size: 40px;
+  color: #231f20;
+  font-weight: bold;
+}
+.navigationbar li.active a {
+  text-decoration: underline;
+}
+
+footer h1 {
+	margin-bottom: 40px;
+}
+footer .mwc-1 address p {
+	margin: 0;
+	font-weight: bold;
+}
+
+footer .location {
+	text-decoration: underline;
+}
+
+footer .brand {
+	border-top: 3px dashed;
+	border-bottom: 3px dashed;
+}
+
+@media (max-width: 979px)
+.navbar-collapse .nav>li a,
+.navbar-collapse .nav>li a:hover {
+  color: #231f20;
 }
