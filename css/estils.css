@@ -53,9 +53,15 @@ footer .location {
   text-decoration: underline;
 }
 footer .brand {
-  border-top: 3px dashed;
-  border-bottom: 3px dashed;
+  border-top: 10px dashed;
+  border-bottom: 10px dashed;
   font-family: VT323;
+  max-width: 270px;
+  border-left: 0;
+  border-right: 0;
+  border-image-source: url(../img/asterisk-border-image.png);
+  border-image-slice: 10 10;
+  border-image-repeat: round;
 }
 footer .background {
   height: 200px;
