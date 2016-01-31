@@ -56,7 +56,7 @@ footer .brand {
   border-top: 10px dashed;
   border-bottom: 10px dashed;
   font-family: VT323;
-  max-width: 270px;
+  max-width: 255px;
   border-left: 0;
   border-right: 0;
   border-image-source: url(../img/asterisk-border-image.png);
