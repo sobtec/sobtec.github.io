@@ -3,13 +3,12 @@ body {
   margin: 0;
   font-family: "Archivo Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.5;
   color: #231f20; 
   background: #fff200;
 }
 
 .header {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 .navigationbar li {
   margin-bottom: 13px;
@@ -69,4 +68,48 @@ footer .background {
   background-repeat: repeat-x;
   margin-top: 50px;
 }
+
+/* CSS ANIMATION */
+
+#movetxt {
+ height: 50px;
+ overflow: hidden;
+ position: relative;
+}
+#movetxt p {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(-100%);
+ -webkit-transform:translateX(-100%);
+ transform:translateX(-100%);
+ /* Apply animation to this element */
+ animation: scroll-right 20s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-right {
+ 0%   { -moz-transform: translateX(-100%); }
+ 100% { -moz-transform: translateX(100%); }
+}
+@-webkit-keyframes scroll-right {
+ 0%   { -webkit-transform: translateX(-100%); }
+ 100% { -webkit-transform: translateX(100%); }
+}
+@keyframes scroll-right {
+ 0%   {
+ -moz-transform: translateX(-100%); /* Browser bug fix */
+ -webkit-transform: translateX(-100%); /* Browser bug fix */
+ transform: translateX(-100%); 
+ }
+ 100% {
+ -moz-transform: translateX(100%); /* Browser bug fix */
+ -webkit-transform: translateX(100%); /* Browser bug fix */
+ transform: translateX(100%);
+ }
+}
+
 
