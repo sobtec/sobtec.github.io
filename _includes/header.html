@@ -10,12 +10,12 @@
 <div class="container header">
   <div class="row">
     <div class="col-sm-4">
-      <a class="brand" href="#"><img class="img-responsive" src="{{ site.baseurl }}/img/logo_congres.png" /></a>
+      <a class="brand" href="{{ site.baseurl }}/"><img class="img-responsive" src="{{ site.baseurl }}/img/logo_congres.png" /></a>
     </div>
     <div class="col-sm-4 col-sm-offset-4 ">
       <ul class="navigationbar list-unstyled">
-        <li class="active"><a href="#">Calendari</a></li>
-        <li><a href="">Inscriu-te</a></li>
+        <li {% if page.url == '/' %} class="active" {% endif %}><a href="{{ site.baseurl }}/">Calendari</a></li>
+        <li {% if page.url == '/inscriute' %} class="active" {% endif %}><a href="{{ site.baseurl }}/inscriute.html">Inscriu-te</a></li>
       </ul>
     </div>
   </div>
