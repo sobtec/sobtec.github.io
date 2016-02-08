@@ -55,50 +55,57 @@ h1, h2 {
 .calendar-day h1 {
   text-align: center;
 }
-.calendar-activity hr {
-  border-top: 0;
-  border-bottom: 3px dashed #000;
-}
-.calendar-activity h2 {
-  font-family: VT323;
-  font-weight: normal;
-  line-height: 20px;
-}
-.calendar-activity a {
-  color: #231f20;
-  text-decoration: underline;
+.calendar-activity {
+  hr {
+    border-top: 0;
+    border-bottom: 3px dashed #000;
+  }
+  h2 {
+    font-family: VT323;
+    font-weight: normal;
+    line-height: 20px;
+  }
+  a {
+    color: #231f20;
+    text-decoration: underline;
+  }
+  img {
+    margin: 0 auto;
+  }
 }
 
-footer i {
-  color: black;
-}
-footer h1 {
-  margin-bottom: 40px;
-}
-footer .mwc-1 address p {
-  font-size: 16px;
-  margin: 0;
-  font-weight: bold;
-}
-footer .location {
-  text-decoration: underline;
-}
-footer .brand {
-  border-top: 10px dashed;
-  border-bottom: 10px dashed;
-  font-family: VT323;
-  max-width: 255px;
-  border-left: 0;
-  border-right: 0;
-  border-image-source: url(../img/asterisk-border-image.png);
-  border-image-slice: 10 10;
-  border-image-repeat: round;
-}
-footer .background {
-  height: 200px;
-  background-image: url("../img/background.png");
-  background-repeat: repeat-x;
-  margin-top: 50px;
+footer {
+  i {
+    color: black;
+  }
+  h1 {
+    margin-bottom: 40px;
+  }
+  .direccio address p {
+    font-size: 16px;
+    margin: 0;
+    font-weight: bold;
+  }
+  .location {
+    text-decoration: underline;
+  }
+  .brand {
+    border-top: 10px dashed;
+    border-bottom: 10px dashed;
+    font-family: VT323;
+    max-width: 255px;
+    border-left: 0;
+    border-right: 0;
+    border-image-source: url(../img/asterisk-border-image.png);
+    border-image-slice: 10 10;
+    border-image-repeat: round;
+  }
+  .background {
+    height: 200px;
+    background-image: url("../img/background.png");
+    background-repeat: repeat-x;
+    margin-top: 50px;
+  }
 }
 
 /* CSS ANIMATION */
