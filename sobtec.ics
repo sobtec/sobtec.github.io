@@ -1,0 +1,283 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+PRODID:-//Sobtec//Cetbos//EN
+VERSION:2.0
+
+BEGIN:VEVENT
+CATEGORY:SOBTEC00
+DTSTART:20160219T180000
+DTEND:20160219T210000
+SUMMARY:L'urbanicidi com a espectacle: Barcelona i la política de grans esdeveniments
+DESCRIPTION:Manuel Delgado farà l'obertura d'una taula rodona on 
+ participaran l'Ariadna i la Laura de Stop Pujades\, el Miguel Álvarez de 
+ Nación Rotonda\, la Paula Ezquerra de Putas Indignadas\, la Lali 
+ Corralero de Las Kellys\, l'Isabel Benítez de la COS i el Javier Marco 
+ de Correscales. Es tractaran temes com el transport\, el treball sexual i 
+ la precarietat laboral.
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:SOBTEC00
+DTSTART:20160220T100000
+DTEND:20160220T110000
+SUMMARY:Sobiranies en infraestructures: Xarxa Telecomunicacions de 
+ Comuns
+DESCRIPTION:Roger Baig de Guifi.net farà una anàlisi crítica breu dels 
+ models econòmics i de xarxa imperants i de les seves conseqüències 
+ sobre l'estat de les infraestructures de telecomunicacions\, servirà per 
+ introduir les propostes de guifi.net i els resultats aconseguits fins 
+ ara. També es presentaran les línies de treball actuals i futures i es 
+ discutirà com Barcelona pot esdevenir una referència dins de guifi.net 
+ a través d'accions concretes.
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:SOBTEC00
+DTSTART:20160220T110000
+DTEND:20160220T120000
+SUMMARY:Estratègia de restistència vs màquines de vigilància
+DESCRIPTION:SpiderAlex parlarà de la creixent criminalització de les 
+ activistes que protegeixen la seva privacitat i utilitzen eines de 
+ seguretat\, evidenciant les aliances que hi ha entre empreses 
+ tecnològiques i els governs.
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:SOBTEC00
+DTSTART:20160220T120000
+DTEND:20160220T130000
+SUMMARY:Municipi i tecnologia: on som i futurs possibles
+DESCRIPTION:Dario Castañé de Pirates de Catalunya explicarà la seva 
+ visió de la situació actual tecnològica als nostres municipis\, arran 
+ de la seva experiència com regidor i informàtic\, respondrà la 
+ pregunta "Estan les nostres dades segures als Ajuntaments?" i exposarà 
+ possibles alternatives per assolir la sobirania tecnològica plena i fer 
+ front als reptes del futur.
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:SOBTEC00
+DTSTART:20160220T130000
+DTEND:20160220T140000
+SUMMARY:Software lliure a Veneçuela: Una batalla per la sobirania tecnològica
+DESCRIPTION:Rafael Rico va ser Coordinador de Criptografia del Ministeri 
+ del Poder Popular per les Relacions Exteriors a Veneçuela\, entre altres 
+ càrrecs en aquest país\, i professor a la Universitat de Màlaga. 
+ Repassarà l'experiència veneçolana de sobirania tecnològica. Ens 
+ explicarà per què el coneixement i la tecnologia són un forma molt 
+ poderosa de dominació del pobles i per què la llibertat del coneixement 
+ és un acte revolucionari.
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:SOBTEC
+DTSTART:20160220T140000
+DTEND:20160220T153000
+SUMMARY:Dinar
+DESCRIPTION:
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:SOBTEC208
+DTSTART:20160220T153000
+DTEND:20160220T163000
+SUMMARY:La Governança d'internet - Introductori
+DESCRIPTION:Jordi Iparguirre de ISOC-CAT explicarà les bases de la Governança
+ d'Internet\, qui fa què i on podem participar i influir en les normatives\,
+ protocols... que fan funcionar la xarxa. El nivell seria introductori a fi
+ de donar una visió general. 
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:SOBTEC208
+DTSTART:20160220T163000
+DTEND:20160220T173000
+SUMMARY:Cryptoparties - Protecció de la intimitat
+DESCRIPTION:Jordi Iparguirre de ISOC-CAT farà un taller d'una hora en la que
+ s'explicarà com podem protegir la nostra privadesa i millorar la nostra seguretat
+ a Internet.
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:SOBTEC209
+DTSTART:20160220T153000
+DTEND:20160220T163000
+SUMMARY:Seguretat a la xarxa
+DESCRIPTION:Xnet
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:SOBTEC209
+DTSTART:20160220T163000
+DTEND:20160220T173000
+SUMMARY:Taller de seguretat informàtica per a dones
+DESCRIPTION:Margarita Padilla de dabne 
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:SOBTEC214
+DTSTART:20160220T153000
+DTEND:20160220T163000
+SUMMARY:La Xarxa Mòbil i el seu funcionament - Usos públics i privats
+DESCRIPTION:Joseba Vilalta explicarà el funcionament de les xarxes mòbils i quin és
+ el rastre que deixen. També farà una introducció al bigdata, i als seus usos públics
+ i privats. 
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:SOBTEC214
+DTSTART:20160220T163000
+DTEND:20160220T173000
+SUMMARY:Xarxes socials, dades i alteratives en la tecnologia lliure
+DESCRIPTION:Jordi Mallach se centrarà en els usos que fem dels serveis d'Internet d'avui
+ en dia (Google\, Facebook\, telèfon mòbil\, etc) i anirà descobrint amb els assistents per
+ què i de quina manera són eines de control\, i quines són les alternatives en les quals
+ està treballant la comunitat del programari lliure. 
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:SOBTEC00
+DTSTART:20160220T153000
+DTEND:20160220T163000
+SUMMARY:Smart Cities als barris populars
+DESCRIPTION:Silvano de Cooperativa Desenvolupament Comunitari
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:SOBTEC00
+DTSTART:20160220T163000
+DTEND:20160220T173000
+SUMMARY:Com participar de Guifi.net
+DESCRIPTION:Guifi.net és més que una xarxa de telecomunicacions lliure\, oberta\, i
+ neutral\, és també una comunitat que està evolucionant cap a unes necessitats cada cop més
+ genèriques. L'objectiu d'aquest debat és resoldre\, respondre i discutir sobre quines són
+ les diferents formes que els assistents poden participar a guifi.net a Barcelona\, o
+ altres indrets. 
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:SOBTEC00
+DTSTART:20160220T173000
+DTEND:20160220T190000
+SUMMARY:Violència Masclista i noves tecnologies
+DESCRIPTION:Taula rodona amb la Maribel Guillamón de Noestasola i la Isabel Muntané
+ del Màster Comunicació i Gènere on parlaran de les agressions sexistes en les noves
+ tecnologies.
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:SOBTEC00
+DTSTART:20160220T190000
+DTEND:20160220T220000
+SUMMARY:Software lliure en l'ètica i la pràctica
+DESCRIPTION:Richard Stallman parlarà sobre els objectius i la filosofia del moviment
+ del Software Lliure\, i l'estat i la història del sistema operatiu GNU que\, amb el nucli
+ Linux\, és actualment utilitzat per desenes de milions de persones a tot el món.
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:ANTIMWC
+DTSTART:20160219T180000
+DTEND:20160219T193000
+SUMMARY:Desmuntant el Mobile World Congress
+DESCRIPTION:Xerrada a càrrec de Assemblea llibertària Oca Negra del Clot
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:ANTIMWC
+DTSTART:20160219T193000
+DTEND:20160219T210000
+SUMMARY:La precarietat laboral dels treballadors de Telèfonica
+DESCRIPTION:Xerrada a càrrec d’un membre de la Marea Blava
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:ANTIMWC
+DTSTART:20160219T210000
+DTEND:20160219T230000
+SUMMARY:Hamburgueseria vegana
+DESCRIPTION:
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:ANTIMWC
+DTSTART:20160220T120000
+DTEND:20160220T133000
+SUMMARY:Passejada de la videovigilància i la smart city
+DESCRIPTION:
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:ANTIMWC
+DTSTART:20160220T133000
+DTEND:20160220T150000
+SUMMARY:Les tecnologies Smart
+DESCRIPTION:Xerrada a càrrec del col·lectiu Negreverd
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:ANTIMWC
+DTSTART:20160220T150000
+DTEND:20160220T180000
+SUMMARY:Dinar solidari amb el Correescales
+DESCRIPTION:Dinar solidari per finançar el projecte del Correescales de
+ Movistar a càrrec d’Heura Negra-Assemblea Llibertària de Vallcarca
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:ANTIMWC
+DTSTART:20160220T180000
+DTEND:20160220T193000
+SUMMARY:El paper de les noves tecnologies en els últims casos repressius
+DESCRIPTION:Xerrada a càrrec de l'Assemblea Llibertària Oca Negra del Clot.
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:ANTIMWC
+DTSTART:20160220T193000
+DTEND:20160220T210000
+SUMMARY:El projecte del Whatsapp alternatiu “Singuasa”
+DESCRIPTION:Presentació a càrrec d’un membre de CNT-Madrid
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:ANTIMWC
+DTSTART:20160220T193000
+DTEND:20160220T210000
+SUMMARY:Autodefensa digital
+DESCRIPTION:Taller a càrrec de l’Assemblea llibertària Oca Negra del Clot.
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:ANTIMWC
+DTSTART:20160220T193000
+DTEND:20160220T210000
+SUMMARY:Introducció teòrica al hacktivisme i taller pràctic
+DESCRIPTION:porta el teu portàtil!
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:ANTIMWC
+DTSTART:20160220T210000
+DTEND:20160220T230000
+SUMMARY:Sopador a càrrec del col·lectiu vegà “Verde que te cocino verde”
+DESCRIPTION:
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:ANTIMWC
+DTSTART:20160221T120000
+DTEND:20160220T133000
+SUMMARY:Smartphones\, Internet i moviments socials
+DESCRIPTION:Xerrada a càrrec del Col·lectiu contra el domini tecnològic “Les Hienes”
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:ANTIMWC
+DTSTART:20160221T140000
+DTEND:20160220T150000
+SUMMARY:Vermut
+DESCRIPTION:
+END:VEVENT
+
+END:VCALENDAR
