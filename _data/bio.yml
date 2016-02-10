@@ -1,0 +1,114 @@
+#Ponents
+- name: Manuel Delgado
+  bio: "Professor d'antropologia urbana de la UB, membre de l'<a href='http://observatoriconflicteurba.org/' target='_blank'>OACU</a> i GRECS."
+  url: "http://manueldelgadoruiz.blogspot.com.es/"
+
+- name: Roger Baig
+  bio: "Participa en el projecte de xarxa lliure, oberta i neutral <a href='https://guifi.net/' target='_blank'>Guifi.net</a> des de 2007."
+  url: 'https://guifi.net/blog/2652'
+
+- name: Margarita Padilla
+  bio: "Programadora, defensora del software lliure. Indaga la relació entre acció política i noves tecnologies."
+
+- name: Pedro #com participar de Guifinet
+  bio: "Voluntari a guifi.net des del 2011, inspirat, arran del 15M, per la necessitat de portar les noves tecnologies a les places i carrers de forma autònoma."
+
+- name: Isabel Muntané
+  bio: "Llicenciada en Periodisme per la UAB, màster en Estudis de Dones, Gènere i Ciutadania -especialitat Crítica i Cultura- per la UB; Actualment col·labora en mitjans de comunicació."
+  url: 'https://twitter.com/imuntan'
+
+- name: Jordi Mallach
+  bio: "Activista valencià del programari lliure, que ha col·laborat en nombrosos projectes des de 1999, destacant les seues aportacions als projectes Debian, GNOME i Softcatalà."
+  url: 'https://twitter.com/jordimallach'
+
+- name: Joseba Vilalta
+  bio: "Tècnic de telecomunicacions en una empresa pública de la Generalitat de Catalunya. Militant de la CUP de Barcelona. Soci del Casal Independentista l'Octubre de Poblenou."
+  url: 'https://twitter.com/josebaforneret'
+
+- name: SpiderAlex
+  bio: "Doctora en economia social i sociòloga, coordinadora de projectes per incloure la perspectiva de gènere a la formació d'activistes en temes de privacitat i seguretat digital."
+  url: 'https://twitter.com/spideralex'
+
+- name: Richard Stallman
+  bio: "Dr. Richard Stallman va iniciar el moviment de software lliure a l'any 1983 i va desenvolupar el sistema operatiu GNU a l'any 1984. Ha rebut diversos reconeixements públics i ha ingressat al Saló de la Fama d'Internet."
+  url: 'https://stallman.org/'
+
+- name: Rafael Rico
+  bio: 'Coordinador de Criptografia del Ministeri del Poder Popular per les Relacions Exteriors a Veneçuela, entre altres càrrecs en aquest país, i professor a la Universitat de Màlaga.'
+
+- name: Dario Castañé
+#  bio: "Nascut el 1985 a Barcelona, però igualadí de tota la vida, administrador de sistemes de professió i activista polític. Actualment exercint com regidor a l'Ajuntament d'Igualada en el seu temps lliure, com portaveu de l'assemblea confluent local Decidim Igualada i membre de Pirates de Catalunya.<br />Contribueix activament al programari lliure i a la cultura lliure, havent estat administrador del directori d'obres alliberades de l'Estat espanyol, Qomun. En política des de 2010 en el moviment pirata, ha desenvolupat i implementat solucions de democràcia directa. Responsable tècnic de Multireferèndum, Referéndum Real Ya i les primàries de candidatures municipals pirates."
+  bio: "Regidor a l'Ajuntament d'Igualada per Decidim Igualada. Contribueix activament al programari lliure i a la cultura lliure, havent estat administrador del directori d'obres alliberades de l'Estat espanyol, Qomun."
+  url: 'https://dario.im/'
+
+- name: Maribel Guillamón
+  bio: "Presidenta de Noestasola des del 2009."
+
+#- name: Isabel Benítez
+#  bio: "" #COS
+
+- name: Eli Vivas
+  bio: "Llicenciada en Periodisme per la Universitat Pompeu Fabra i en Lingüística per la Universitat Autònoma de Barcelona. és cofundadora de Hacks/Hackers Barcelona, organització internacional que fomenta la fusió entre periodisme i tecnologia a través de xerrades i tallers on participen programadors, dissenyadors i periodistes."
+
+#Entitats
+- name: Memes Feministas
+  bio: "Projecte d'humor a la Xarxa que sorgeix a principis de 2013 com a resposta al troleig masclista que sovint patim les dones, lesbianes, trans i feministes a Internet.  Es tracta d'un projecte liderat per tres companyes, Eli, Ana i Yendéh, però obert a la participació de tothom que vulgui. Més info a <a href='https://memesfeministas.wordpress.com/' target='_blank'>https://memesfeministas.wordpress.com/</a> i <a href='https://twitter.com/memesfeministas' target='_blank'>@MemesFeministas</a>."
+  url: 'https://twitter.com/memesfeministas'
+
+- name: Màster Gènere i Comunicació de la UAB
+  bio: Apostem per un periodisme feminista present a les xarxes perquè sabem que aquestes són les plataformes per fer-nos fortes i per canviar discursos masclistes dels mitjans.
+
+- name: Correscales
+  bio: "Moviment sorgit de la vaga de treballadors i treballadores externalitzades de Movistar, per lluitar contra la precaritat laboral i per una vida digna. La marxa tindrà lloc del 18 al 22 de febrer. Tenen una campanya activa de <a href='https://ca.goteo.org/project/correscales-2016' target='_blank'>micromecenatge a goteo</a>."
+  url: 'https://ca.goteo.org/project/correscales-2016'
+
+- name: Las Kellys
+  bio: "Organització de treballadores d'hotels per fer visible la precarietat laboral que pateixen."
+  url: 'https://twitter.com/las_kellys'
+
+- name: Stop Pujades
+  bio: "Plataforma veïnal que lluita contra els preus del transport públic i la privatització de la seva gestió, així com de la T-Mobilitat."
+  url: 'http://stoppujadestransport.blogspot.com.es/'
+
+- name: Nación Rotonda
+  bio: "Inventari visual del canvi d'ús en el territori en els últims 15 anys."
+  url: 'http://www.nacionrotonda.com/'
+
+- name: Putes Indignades
+  bio: "Contra la prohibició dels drets de les dones al carrer, plataforma pel reconeixement dels drets laborals i cívics de les treballadores sexuals."
+  url: 'https://prostitutasindignadas.wordpress.com/'
+
+- name: Pirates de Catalunya
+  url: 'http://pirata.cat/'
+
+- name: Guifi.net
+  url: 'https://guifi.net/'
+
+- name: ISOC-CAT
+  url: 'http://isoc-cat.blogspot.com.es/'
+
+- name: Dabne
+  url: 'http://www.dabne.net/'
+
+- name: Xnet
+  url: 'https://xnet-x.net/'
+
+- name: Cooperativa Desenvolupament Comunitari
+  url: 'http://www.descom.cat/'
+
+- name: Eticom
+  url: 'https://eticom.coop/'
+
+- name: El Teb
+  url: 'http://elteb.org/'
+
+- name: Torus Governance Network
+  url: 'http://p2pfoundation.net/Torus_Governance_Network'
+
+#- name: Sabrina Presti
+
+- name: CIC
+  url: 'http://cooperativa.cat/'
+
+- name: Booleans
+  url: 'http://booleans.cat/'

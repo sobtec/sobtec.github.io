@@ -1,0 +1,12 @@
+{% comment %}
+Other options:
+  class="btn btn-default"
+  title="{{ include.param }}"
+  <button type="button"...></button> instead of anchor
+{% endcomment %}
+{% assign info = site.data.bio | where: 'name',include.param | first %}
+{% if info.size > 0 %}
+<b><a {% if info.bio != "" and info.bio != nil %} data-content="{{info.bio}}" tabindex="0" role="button" data-toggle="popover"{% endif %} {% if info.url != "" and info.url != nil %}href="{{info.url}}" target="_blank"{% endif %}>{{ include.param }}</a></b>
+{% else %}
+<b>{{ include.param }}</b>
+{% endif %}
