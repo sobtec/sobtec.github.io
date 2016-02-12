@@ -267,7 +267,7 @@ END:VEVENT
 BEGIN:VEVENT
 CATEGORY:ANTIMWC
 DTSTART:20160221T120000
-DTEND:20160220T133000
+DTEND:20160222T133000
 SUMMARY:Smartphones\, Internet i moviments socials
 DESCRIPTION:Xerrada a càrrec del Col·lectiu contra el domini tecnològic “Les Hienes”
 END:VEVENT
@@ -275,9 +275,17 @@ END:VEVENT
 BEGIN:VEVENT
 CATEGORY:ANTIMWC
 DTSTART:20160221T140000
-DTEND:20160220T150000
+DTEND:20160221T150000
 SUMMARY:Vermut
 DESCRIPTION:
+END:VEVENT
+
+BEGIN:VEVENT
+CATEGORY:SETEM
+DTSTART:20160223T160000
+DTEND:20160223T210000
+SUMMARY:Mobile Social Congress
+DESCRIPTION:Presentacions de Guifinet\, KDE eV\, Amnistia Internacional\, Xarxa d’Entitats pel Congo\, Universitat Politècnica de Catalunya\, Fairphone i Eticom. També comptarà amb la presència d’una Fira d’Alternatives\, una Install Party i una Restart Party.
 END:VEVENT
 
 END:VCALENDAR
