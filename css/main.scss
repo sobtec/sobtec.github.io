@@ -25,31 +25,33 @@ body {
   background: #fff200;
 }
 h1, h2 {
-	
-      font-weight: bold;
+  font-weight: bold;
 }
 .header {
   margin-top: 10px;
 }
-.navigationbar li {
-  margin-bottom: 13px;
-}
-.navigationbar li a {
-  font-size: 38.5px;
-  color: #231f20;
-  font-weight: bold;
-}
-.navigationbar li.active a {
-  text-decoration: underline;
+.navigationbar {
+  li {
+    margin-bottom: 13px;
+  }
+  li a {
+    font-size: 38.5px;
+    color: #231f20;
+    font-weight: bold;
+  }
+  li.active a {
+    text-decoration: underline;
+  }
 }
 
 /* BODY */
 .body {
   margin-top: 50px;
   margin-bottom: 50px;
-}
-.body .row{
-  margin-bottom: 25px;
+
+  .row{
+    margin-bottom: 25px;
+  }
 }
 /* CALENDAR */
 .calendar-day h1 {
@@ -114,22 +116,28 @@ footer {
   height: 50px;
   overflow: hidden;
   position: relative;
+
+  p {
+    position: absolute;
+    width: 15500px;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    /* Starting position */
+    -moz-transform:translateX(100%);
+    -webkit-transform:translateX(100%);
+    /* Apply animation to this element */
+    -moz-animation: scroll-left 30s linear infinite;
+    -webkit-animation: scroll-left 30s linear infinite;
+    animation: scroll-left 120s linear infinite;
+
+    .movetxt-str {
+      margin-left: 100px;
+    }
+  }
 }
-#movetxt p {
-  position: absolute;
-  width: 15500px;
-  height: 100%;
-  margin: 0;
-  line-height: 50px;
-  text-align: center;
-  /* Starting position */
-  -moz-transform:translateX(100%);
-  -webkit-transform:translateX(100%);
-  /* Apply animation to this element */
-  -moz-animation: scroll-left 30s linear infinite;
-  -webkit-animation: scroll-left 30s linear infinite;
-  animation: scroll-left 120s linear infinite;
-}
+
 /* Move it (define the animation) */
 @-moz-keyframes scroll-left {
   0%   { -moz-transform: translateX(100%); }

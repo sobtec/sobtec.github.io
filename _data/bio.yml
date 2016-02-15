@@ -74,11 +74,16 @@
   bio: "Inventari visual del canvi d'ús en el territori en els últims 15 anys."
   url: 'http://www.nacionrotonda.com/'
 
-- name: Putes Indignades
+- name: Prostitutas Indignadas
   bio: "Contra la prohibició dels drets de les dones al carrer, plataforma pel reconeixement dels drets laborals i cívics de les treballadores sexuals."
   url: 'https://prostitutasindignadas.wordpress.com/'
 
+- name: COS
+  bio: "La COORDINADORA OBRERA SINDICAL (COS) és una organització sindical que lluita per la defensa i millora dels interessos dels treballadors i les treballadores. La COS nasqué l'abril de 1987 i es declara hereva del sindicalisme de classe i nacional històric (SOC, CCTT, CSTC...) i de les diverses i plurals expressions que l'han encarnat."
+  url: 'http://www.sindicatcos.cat/'
+
 - name: Pirates de Catalunya
+  bio: "Pirates de Catalunya es va fundar l'any 2010, en el 2012 va esdevenir membre de ple dret de Pirate Parties International i en el 2013 va participar en la fundació de European Pirates i de la Confederació Pirata. La Confederació Pirata és una federació de partits pirates plenament autònoms de diverses regions espanyoles, que coordina les polítiques pirates arreu de l’estat espanyol."
   url: 'http://pirata.cat/'
 
 - name: Guifi.net
@@ -93,6 +98,7 @@
 - name: Xnet
   url: 'https://xnet-x.net/'
 
+#- name: Silvano Aversano
 - name: Cooperativa Desenvolupament Comunitari
   url: 'http://www.descom.cat/'
 

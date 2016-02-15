@@ -1,7 +1,9 @@
 <div id="movetxt">
   <p>
     {% for txt in site.data.header_txts %}
-      <b>{{txt.name}}</b>: {{ txt.msgs | sample:1 }}
+      {% for msg in txt.msgs %}
+        <span class="movetxt-str"><b>{{txt.name}}</b>: {{ msg }}</span>
+      {% endfor %}
     {% endfor %}
   </p>
 </div>
