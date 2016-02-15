@@ -13,6 +13,6 @@
   <link href="//fonts.googleapis.com/css?family=VT323" rel="stylesheet">
   <link href="//fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
 
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="canonical" href="{{ page.url | replace:'/','' | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 </head>
