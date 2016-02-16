@@ -6,6 +6,7 @@ layout: default
   <p>Aquest primer Congrés de Sobirania Tecnològica està organitzat pel <b>Grup Promotor per la Sobirania Tecnològica</b>. Volem que aquest grup sigui la llavor d'un espai estable per aglutinar i teixir alternatives en aquest àmbit.</p>
   <p>Si estàs interessat o interessada en rebre informació sobre les properes reunions o activitats del grup promotor, envia un correu electrònic a <a href="mailto:{{ site.email }}"><b>info@sobtec.cat</b></a></p>
   <br>
+
   <h2>Vídeo promocional</h2>
   <div align="center" class="embed-responsive embed-responsive-16by9">
     <video controls class="embed-responsive-item">
@@ -13,4 +14,13 @@ layout: default
       <source src="{{ site.baseurl }}/img/sobtec.ogg" type="video/ogg" />
     </video>
   </div>
+
+  <h2>Els ponents en frases</h2>
+  <ul class="list-unstyled">
+    {% for txt in site.data.header_txts %}
+      {% for msg in txt.msgs %}
+        <li><b>{{txt.name}}</b>: {{ msg }}</li><br>
+      {% endfor %}
+    {% endfor %}
+  </ul>
 </div>
