@@ -23,7 +23,10 @@
 
   <body>
 
-    <div id="movetxt">
+    <div id="link_movetxt">
+  <a href="/grup_promotor#speakers"><i class="fa fa-search"></i></a>
+</div>
+<div id="movetxt">
   <p>
     
       
@@ -146,6 +149,11 @@
   </div>
   <div class="background"></div>
 </footer>
+<div id="img-modal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content"></div>
+  </div>
+</div>
 
 <!-- JS -->
 <script src="/bower_components/jquery/dist/jquery.min.js"></script>
@@ -165,6 +173,12 @@ $(function () {
   for (var $x=$("#movetxt .movetxt-str"), i=$x.length-1, j, temp; i>=0; i--) { j=Math.floor(Math.random()*(i+1)), temp=$x[i], $x[i]=$x[j], $x[j]=temp; }
   $x.each(function(i, li) { $("#movetxt p").append(li); });
 
+  //Images in modals
+  $('#img-modal').on('show.bs.modal', function (event) {
+    var img = $(event.relatedTarget).clone(),
+      modal = $(this);
+      modal.find('.modal-content').html(img);
+  })
 });
 </script>
 

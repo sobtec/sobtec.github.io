@@ -23,7 +23,10 @@
 
   <body>
 
-    <div id="movetxt">
+    <div id="link_movetxt">
+  <a href="/grup_promotor#speakers"><i class="fa fa-search"></i></a>
+</div>
+<div id="movetxt">
   <p>
     
       
@@ -104,6 +107,7 @@
   <p>Aquest primer Congrés de Sobirania Tecnològica està organitzat pel <b>Grup Promotor per la Sobirania Tecnològica</b>. Volem que aquest grup sigui la llavor d'un espai estable per aglutinar i teixir alternatives en aquest àmbit.</p>
   <p>Si estàs interessat o interessada en rebre informació sobre les properes reunions o activitats del grup promotor, envia un correu electrònic a <a href="mailto:info@sobtec.cat"><b>info@sobtec.cat</b></a></p>
   <br>
+
   <h2>Vídeo promocional</h2>
   <div align="center" class="embed-responsive embed-responsive-16by9">
     <video controls class="embed-responsive-item">
@@ -111,6 +115,65 @@
       <source src="/img/sobtec.ogg" type="video/ogg" />
     </video>
   </div>
+
+  <h2 id="speakers">Les frases dels ponents</h2>
+  <ul class="list-unstyled">
+    
+      
+        <li><b>Jordi Mallach</b>: Bàsicament la idea és centrar-me en els usos que fem dels serveis d'internet de hui en dia (Google, Facebook, telèfon mòbil, etc) i anar descobrint amb els assistents per què i de quina manera són eines de control, i quines són les alternatives en les quals està treballant la comunitat del programari lliure.</li><br>
+      
+    
+      
+        <li><b>Joseba Vilalta</b>: Funcionament de les xarxes mòbils i quin és el rastre que deixa el meu mòbil. Introducció al bigdata,usos públics i privats.</li><br>
+      
+    
+      
+        <li><b>SpiderAlex</b>: En esta charla hablaremos de la creciente criminalización de las activistas que protegen su privacidad y hacen uso de herramientas de seguridad, mostrando las alianzas que se dan entre las empresas tecnológicas y los gobiernos. Luego abordaremos las estrategias y tácticas de resistencia que podemos implementar para hacer frente a estas maquinas de vigilancia.</li><br>
+      
+    
+      
+        <li><b>Richard Stallman</b>: Richard Stallman hablará sobre las metas y la filosofía del movimiento del Software Libre, y el estado y la historia del sistema operativo GNU, el cual junto con el núcleo Linux, es actualmente utilizado por decenas de millones de personas en todo el mundo.</li><br>
+      
+    
+      
+        <li><b>Rafael Rico</b>: El conocimiento y la tecnología es una forma poderosa de dominación de los pueblos.</li><br>
+      
+        <li><b>Rafael Rico</b>: La liberta del conocimiento es un acto revolucionario.</li><br>
+      
+        <li><b>Rafael Rico</b>: El paro petrolero del 2002 en Venezuela: una guerra cybernético</li><br>
+      
+        <li><b>Rafael Rico</b>: Venezuela decide migrar a software libre su administración pública</li><br>
+      
+    
+      
+        <li><b>Memes Feministas</b>: El cibermón està dominat per humor sexista (i opressiu en general: classista, racista, trànsfob, etc.) i molts dels més famosos memes que circulen per la xarxa ho proven. Nosaltres, les feministes, volem reapropiar-nos d'aquesta eina, resignificar els seus codis, riure i utilitzar la creativitat irreverent mentre dinamitem l'heteropatriarcat. Memes Feministes per a totes!</li><br>
+      
+        <li><b>Memes Feministas</b>: La violència a Internet ve propiciada per elements com ara l'anonimat, la rapidesa i la fugacitat, la impunitat i tolerància a les agressions a l'espai virtual o la línia difusa entre el troleig, l'assetjament i l'amenaça. És important identificar-ho i generar mecanismes col.lectius basats en la cura per denunciar-les, enfrontar-les, combatre-les i generar espais segurs a la xarxa per a les activistes feministes.</li><br>
+      
+        <li><b>Memes Feministas</b>: Les polítiques de privacitat de Facebook i altres xarxes hegemòniques, la falta de transparència informativa als contractes de registre, el trànsit de dades personals de les usuàries, la censura i el control en general, són elements que ens generen conflictes a l'hora de fer servir aquestes multinacionals de les comunicacions. Considerem necessari repensar les formes en què les feministes hi som presents i, alhora, idear espais lliures de violència.</li><br>
+      
+    
+      
+        <li><b>Dario Castañé</b>: Saps si les teves dades personals a l'Ajuntament es troben segures? Spoiler: probablement no.</li><br>
+      
+        <li><b>Dario Castañé</b>: Enginyeria social, males infraestructures i programari privatiu amenacen la teva privacitat a la teva ciutat.</li><br>
+      
+        <li><b>Dario Castañé</b>: Smart city: utopia de dades obertes o distopia orwelliana local.</li><br>
+      
+        <li><b>Dario Castañé</b>: Hi ha alternativa al mal estat tecnològic actual als nostres municipis i administració pública.</li><br>
+      
+        <li><b>Dario Castañé</b>: Programari lliure, criptografia i municipalisme: la descentralització com camí a la sobirania popular.</li><br>
+      
+    
+      
+        <li><b>Isabel Benítez</b>: L'economia dels grans esdeveniments genera un mercat laboral fluctuant i sense drets.</li><br>
+      
+        <li><b>Isabel Benítez</b>: L'escenografia dels grans esdeveniments aprofundeix en la mercantilització del cos de les dones.</li><br>
+      
+        <li><b>Isabel Benítez</b>: La sobirania tecnològica és un afer tècnic però també de control democràtic de la tecnologia</li><br>
+      
+    
+  </ul>
 </div>
 
     </div>
@@ -145,6 +208,11 @@
   </div>
   <div class="background"></div>
 </footer>
+<div id="img-modal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content"></div>
+  </div>
+</div>
 
 <!-- JS -->
 <script src="/bower_components/jquery/dist/jquery.min.js"></script>
@@ -164,6 +232,12 @@ $(function () {
   for (var $x=$("#movetxt .movetxt-str"), i=$x.length-1, j, temp; i>=0; i--) { j=Math.floor(Math.random()*(i+1)), temp=$x[i], $x[i]=$x[j], $x[j]=temp; }
   $x.each(function(i, li) { $("#movetxt p").append(li); });
 
+  //Images in modals
+  $('#img-modal').on('show.bs.modal', function (event) {
+    var img = $(event.relatedTarget).clone(),
+      modal = $(this);
+      modal.find('.modal-content').html(img);
+  })
 });
 </script>
 

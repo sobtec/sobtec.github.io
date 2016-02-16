@@ -23,7 +23,10 @@
 
   <body>
 
-    <div id="movetxt">
+    <div id="link_movetxt">
+  <a href="/grup_promotor#speakers"><i class="fa fa-search"></i></a>
+</div>
+<div id="movetxt">
   <p>
     
       
@@ -101,12 +104,32 @@
 
     <div class="body container">
         <div class="row">
-  <h2>Congrés de Sobirania Tecnològica</h2>
-  <img class="img-responsive" src="/img/SobTec.png" alt="Cartell del congres" />
+  <div class="col-sm-6">
+    <h2>Congrés de Sobirania Tecnològica</h2>
+    <img class="img-responsive" data-toggle="modal" data-target="#img-modal" src="/img/SobTec.png" alt="Cartell del congres" />
+  </div>
+  <div class="col-sm-6">
+    <h2>Programa</h2>
+    <img class="img-responsive" data-toggle="modal" data-target="#img-modal" src="/img/programa.png" alt="Programa del congres" />
+  </div>
 </div>
 <div class="row">
-  <h2>Programa</h2>
-  <img class="img-responsive" src="/img/programa.png" alt="Programa del congres" />
+  <div class="col-sm-3">
+    <h2>Passi del documental: "Somos legión: la historia de los hackers"</h2>
+    <img class="img-responsive" data-toggle="modal" data-target="#img-modal" src="/img/altres_cartells/SobTec_Gracia.png" alt="Somos legión: la historia de los hackers" />
+  </div>
+  <div class="col-sm-3">
+    <h2>Docufòrum: "Minerals de Sang"</h2>
+    <img class="img-responsive" data-toggle="modal" data-target="#img-modal" src="/img/altres_cartells/SobTec_minerals_sang.jpg" alt="Minerals de Sang" />
+  </div>
+  <div class="col-sm-3">
+    <h2>Cartell conjunt: "Plantem cara al Mobile World Congress"</h2>
+    <img class="img-responsive" data-toggle="modal" data-target="#img-modal" src="/img/altres_cartells/plantem_cara.jpg" alt="Plantem cara al Mobile World Congress" />
+  </div>
+  <div class="col-sm-3">
+    <h2>Arran: "Prou precarietat"</h2>
+    <img class="img-responsive" data-toggle="modal" data-target="#img-modal" src="/img/altres_cartells/Arran_MWC.jpg" alt="Minerals de Sang" />
+  </div>
 </div>
 
     </div>
@@ -141,6 +164,11 @@
   </div>
   <div class="background"></div>
 </footer>
+<div id="img-modal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content"></div>
+  </div>
+</div>
 
 <!-- JS -->
 <script src="/bower_components/jquery/dist/jquery.min.js"></script>
@@ -160,6 +188,12 @@ $(function () {
   for (var $x=$("#movetxt .movetxt-str"), i=$x.length-1, j, temp; i>=0; i--) { j=Math.floor(Math.random()*(i+1)), temp=$x[i], $x[i]=$x[j], $x[j]=temp; }
   $x.each(function(i, li) { $("#movetxt p").append(li); });
 
+  //Images in modals
+  $('#img-modal').on('show.bs.modal', function (event) {
+    var img = $(event.relatedTarget).clone(),
+      modal = $(this);
+      modal.find('.modal-content').html(img);
+  })
 });
 </script>
 
