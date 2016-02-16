@@ -1,0 +1,168 @@
+---
+  -
+    backgroundColor: "yellow"
+    textColor: "black"
+    start: "20160219T180000"
+    end: "20160219T210000"
+    title: "L'urbanicidi com a espectacle: Barcelona i la política de grans esdeveniments"
+  -
+    backgroundColor: "yellow"
+    textColor: "black"
+    start: "20160220T100000"
+    end: "20160220T110000"
+    title: "Sobiranies en infraestructures: Xarxa Telecomunicacions deComuns"
+  -
+    backgroundColor: "yellow"
+    textColor: "black"
+    start: "20160220T110000"
+    end: "20160220T120000"
+    title: "Estratègia de restistència vs màquines de vigilància"
+  -
+    backgroundColor: "yellow"
+    textColor: "black"
+    start: "20160220T120000"
+    end: "20160220T130000"
+    title: "Municipi i tecnologia: on som i futurs possibles"
+  -
+    backgroundColor: "yellow"
+    textColor: "black"
+    start: "20160220T130000"
+    end: "20160220T140000"
+    title: "Software lliure a Veneçuela: Una batalla per la sobirania tecnològica"
+  -
+    backgroundColor: "yellow"
+    textColor: "black"
+    start: "20160220T140000"
+    end: "20160220T153000"
+    title: "Dinar"
+  -
+    backgroundColor: "yellow"
+    textColor: "black"
+    start: "20160220T153000"
+    end: "20160220T163000"
+    title: "La Governança d'internet - Introductori"
+  -
+    backgroundColor: "yellow"
+    textColor: "black"
+    start: "20160220T163000"
+    end: "20160220T173000"
+    title: "Cryptoparties - Protecció de la intimitat"
+  -
+    backgroundColor: "yellow"
+    textColor: "black"
+    textColor: "black"
+    start: "20160220T153000"
+    end: "20160220T163000"
+    title: "Seguretat a la xarxa"
+  -
+    backgroundColor: "yellow"
+    textColor: "black"
+    start: "20160220T163000"
+    end: "20160220T173000"
+    title: "Taller de seguretat informàtica per a dones"
+  -
+    backgroundColor: "yellow"
+    textColor: "black"
+    start: "20160220T153000"
+    end: "20160220T163000"
+    title: "La Xarxa Mòbil i el seu funcionament - Usos públics i privats"
+  -
+    backgroundColor: "yellow"
+    textColor: "black"
+    start: "20160220T163000"
+    end: "20160220T173000"
+    title: "Xarxes socials, dades i alteratives en la tecnologia lliure"
+  -
+    backgroundColor: "yellow"
+    textColor: "black"
+    start: "20160220T153000"
+    end: "20160220T163000"
+    title: "Smart Cities als barris populars"
+  -
+    backgroundColor: "yellow"
+    textColor: "black"
+    start: "20160220T163000"
+    end: "20160220T173000"
+    title: "Com participar de Guifi.net"
+  -
+    backgroundColor: "yellow"
+    textColor: "black"
+    start: "20160220T173000"
+    end: "20160220T190000"
+    title: "Violència Masclista i noves tecnologies"
+  -
+    backgroundColor: "yellow"
+    textColor: "black"
+    start: "20160220T190000"
+    end: "20160220T220000"
+    title: "Software lliure en l'ètica i la pràctica"
+  -
+    backgroundColor: "black"
+    start: "20160219T180000"
+    end: "20160219T193000"
+    title: "Desmuntant el Mobile World Congress"
+  -
+    backgroundColor: "black"
+    start: "20160219T193000"
+    end: "20160219T210000"
+    title: "La precarietat laboral dels treballadors de Telèfonica"
+  -
+    backgroundColor: "black"
+    start: "20160219T210000"
+    end: "20160219T230000"
+    title: "Hamburgueseria vegana"
+  -
+    backgroundColor: "black"
+    start: "20160220T120000"
+    end: "20160220T133000"
+    title: "Passejada de la videovigilància i la smart city"
+  -
+    backgroundColor: "black"
+    start: "20160220T133000"
+    end: "20160220T150000"
+    title: "Les tecnologies Smart"
+  -
+    backgroundColor: "black"
+    start: "20160220T150000"
+    end: "20160220T180000"
+    title: "Dinar solidari amb el Correescales"
+  -
+    backgroundColor: "black"
+    start: "20160220T180000"
+    end: "20160220T193000"
+    title: "El paper de les noves tecnologies en els últims casos repressius"
+  -
+    backgroundColor: "black"
+    start: "20160220T193000"
+    end: "20160220T210000"
+    title: 'El projecte del Whatsapp alternatiu "Singuasa"'
+  -
+    backgroundColor: "black"
+    start: "20160220T193000"
+    end: "20160220T210000"
+    title: "Autodefensa digital"
+  -
+    backgroundColor: "black"
+    start: "20160220T193000"
+    end: "20160220T210000"
+    title: "Introducció teòrica al hacktivisme i taller pràctic"
+  -
+    backgroundColor: "black"
+    start: "20160220T210000"
+    end: "20160220T230000"
+    title: 'Sopador a càrrec del col·lectiu vegà "Verde que te cocino verde"'
+  -
+    backgroundColor: "black"
+    start: "20160221T120000"
+    end: "20160221T143000"
+    title: "Smartphones, Internet i moviments socials"
+  -
+    backgroundColor: "black"
+    start: "20160221T140000"
+    end: "20160221T150000"
+    title: "Vermut"
+  -
+    backgroundColor: "green"
+    start: "20160223T160000"
+    end: "20160223T210000"
+    title: "Mobile Social Congress"
