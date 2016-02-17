@@ -63,7 +63,7 @@ $(function () {
 });
 </script>
 
-{% if page.url == '/calendari' %}
+{% if page.url == '/quatre_jornades' %}
 
 <link rel="stylesheet" href="{{ '/bower_components/fullcalendar/dist/fullcalendar.css' | prepend: site.baseurl }}">
 <link rel="stylesheet" href="{{ '/bower_components/qtip2/jquery.qtip.css' | prepend: site.baseurl }}">
@@ -77,21 +77,22 @@ $(function () {
 <script type="text/javascript">
   $(function () {
     //Initalize tooltip & carrousel
-    $('#calendar').fullCalendar({
+    $('#calendar1').fullCalendar({
+      columnFormat: 'D/M',
       header: {
         left:'',
-        center: 'title',
+        center: '',
         right:''
       },
       defaultView: 'agendaTwoDay',
       defaultDate: '2016-02-19',
       minTime: '09:30:00',
-      maxTime: '22:30:00',
+      maxTime: '21:30:00',
       views: {
         agendaTwoDay: {
           type: 'agendaWeek',
           duration: {
-            days: 5
+            days: 2
           },
           weekNumbers: false,
           allDaySlot: false,
@@ -103,7 +104,63 @@ $(function () {
                content: "<b>" + event.title + "</b><br \>" + event.description
           });
       }
-  });
+    });
+    $('#calendar2').fullCalendar({
+        columnFormat: 'D/M',
+        header: {
+          left:'',
+          center: '',
+          right:''
+        },
+        defaultView: 'agendaTwoDay',
+        defaultDate: '2016-02-21',
+        minTime: '09:30:00',
+        maxTime: '21:30:00',
+        views: {
+          agendaTwoDay: {
+            type: 'agendaWeek',
+            duration: {
+              days: 3
+            },
+            weekNumbers: false,
+            allDaySlot: false,
+          }
+        },
+        events: {{ site.data.calendar | jsonify }},
+        eventRender: function(event, element) {
+            element.qtip({
+                 content: "<b>" + event.title + "</b><br \>" + event.description
+            });
+        }
+    });
+    $('#calendar3').fullCalendar({
+        columnFormat: 'D/M',
+        header: {
+          left:'',
+          center: '',
+          right:''
+        },
+        defaultView: 'agendaTwoDay',
+        defaultDate: '2016-02-24',
+        minTime: '09:30:00',
+        maxTime: '21:30:00',
+        views: {
+          agendaTwoDay: {
+            type: 'agendaWeek',
+            duration: {
+              days: 1
+            },
+            weekNumbers: false,
+            allDaySlot: false,
+          }
+        },
+        events: {{ site.data.calendar | jsonify }},
+        eventRender: function(event, element) {
+            element.qtip({
+                 content: "<b>" + event.title + "</b><br \>" + event.description
+            });
+        }
+    });
   });
 </script>
 
