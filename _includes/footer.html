@@ -66,59 +66,46 @@ $(function () {
 {% if page.url == '/calendari' %}
 
 <link rel="stylesheet" href="{{ '/bower_components/fullcalendar/dist/fullcalendar.css' | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ '/bower_components/qtip2/jquery.qtip.css' | prepend: site.baseurl }}">
 <link rel="stylesheet" media="print" href="{{ '/bower_components/fullcalendar/dist/fullcalendar.print.css' | prepend: site.baseurl }}">
 
 <script src="{{ site.baseurl }}/bower_components/moment/min/moment.min.js"></script>
 <!--<script src="{{ site.baseurl }}/bower_components/moment/min/moment-with-locales.min.js"></script>-->
 <script src="{{ site.baseurl }}/bower_components/fullcalendar/dist/fullcalendar.min.js"></script>
+<script src="{{ site.baseurl }}/bower_components/qtip2/jquery.qtip.min.js"></script>
 
 <script type="text/javascript">
   $(function () {
     //Initalize tooltip & carrousel
     $('#calendar').fullCalendar({
       header: {
-        left:'',center: 'title',right:''
-//        left: 'prev,next today',
-//        center: 'title',
-//        right: 'agendaWeek,agendaDay,agendaFourDay'
+        left:'',
+        center: 'title',
+        right:''
       },
       defaultView: 'agendaTwoDay',
       defaultDate: '2016-02-19',
-//      businessHours: true,
-      duration: {
-          start: '10:00',
-          end: '22:00'
-      },
+      minTime: '09:30:00',
+      maxTime: '22:30:00',
       views: {
         agendaTwoDay: {
           type: 'agendaWeek',
           duration: {
             days: 5
-//            start: '10:00',
-//            end: '22:00'
           },
-//          buttonText: '4 day',
-//          start: '20160220T100000',
-//          start: '10:00',
-//          intervalStart: '20160220T100000',
-//          end: '22:00',
-//          intervalEnd: '20160223T210000',
-//          dayGrid: true,
           weekNumbers: false,
           allDaySlot: false,
-//          allDayHtml: false,
-//          allDayText: false,
-//          extraSmallTimeFormat: true,
-//          slotEventOverlap: false
         }
       },
-//      editable: true,
-//      eventLimit: true, // allow "more" link when too many events
-      events: {{ site.data.calendar | jsonify }}
-    });
+      events: {{ site.data.calendar | jsonify }},
+      eventRender: function(event, element) {
+          element.qtip({
+               content: "<b>" + event.title + "</b><br \>" + event.description
+          });
+      }
+  });
   });
 </script>
 
 
 {% endif %}
-
