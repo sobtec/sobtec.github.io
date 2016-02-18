@@ -96,6 +96,7 @@
         <li ><a href="/inscriute.html">Inscriu-te</a></li>
         <li  class="active" ><a href="/grup_promotor.html">Grup promotor</a></li>
         <li ><a href="/cartells.html">Cartells</a></li>
+        <li ><a href="/quatre_jornades.html">4 jornades</a></li>
       </ul>
     </div>
   </div>
@@ -107,14 +108,6 @@
   <p>Aquest primer Congrés de Sobirania Tecnològica està organitzat pel <b>Grup Promotor per la Sobirania Tecnològica</b>. Volem que aquest grup sigui la llavor d'un espai estable per aglutinar i teixir alternatives en aquest àmbit.</p>
   <p>Si estàs interessat o interessada en rebre informació sobre les properes reunions o activitats del grup promotor, envia un correu electrònic a <a href="mailto:info@sobtec.cat"><b>info@sobtec.cat</b></a></p>
   <br>
-
-  <h2>Comunicats</h2>
-  <a href="/docs/comunicat_tmb.pdf" target="_blank">
-    Comunicat de suport a la vaga convocada per TMB.
-  </a><br>
-  <a href="/docs/comunicat_correescales.pdf" target="_blank">
-    Comunicat de suport a les treballadores de Movistar i a la moblització del Correscales.
-  </a>
 
   <h2>Vídeo promocional</h2>
   <div align="center" class="embed-responsive embed-responsive-16by9">
@@ -240,14 +233,11 @@ $(function () {
   for (var $x=$("#movetxt .movetxt-str"), i=$x.length-1, j, temp; i>=0; i--) { j=Math.floor(Math.random()*(i+1)), temp=$x[i], $x[i]=$x[j], $x[j]=temp; }
   $x.each(function(i, li) { $("#movetxt p").append(li); });
 
-  //Images in modals
-  $('#img-modal').on('show.bs.modal', function (event) {
-    var img = $(event.relatedTarget).clone(),
-      modal = $(this);
-      modal.find('.modal-content').html(img);
-  })
+  
 });
 </script>
+
+
 
 
   </body>
