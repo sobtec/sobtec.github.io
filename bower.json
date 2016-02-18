@@ -24,6 +24,8 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap-sass": "~3.3.6"
+    "bootstrap-sass": "~3.3.6",
+    "qtip2": "~2.2.1",
+    "fullcalendar": "2.6.0"
   }
 }

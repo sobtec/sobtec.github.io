@@ -54,6 +54,10 @@ h1, h2 {
   }
 }
 /* CALENDAR */
+#calendar .fc-view-container {
+  background: #D9D5D2;
+  opacity: 0.9;
+}
 .calendar-day h1 {
   text-align: center;
 }
