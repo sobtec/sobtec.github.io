@@ -8,6 +8,7 @@ layout: default
 - http://www.vilaweb.cat/noticies/diverses-entitats-que-promouen-una-tecnologia-alternativa-planten-cara-al-mobile-world-congress/
 - http://www.vilaweb.cat/noticies/quatre-jornades-planten-cara-al-mobile-world-congress-i-mostren-alternatives-del-sector/
 - http://www.vilaweb.cat/noticies/alba-trepat-es-preocupant-que-no-hi-hagi-prou-critica-sobre-limpacte-del-mwc/
+- http://www.naciodigital.cat/noticia/103642/richard/stallman/facebook/no/usuaris/sino/utilitzats
 - http://www.argia.eus/albistea/mobile-world-congress-i-aurre-egiteko-lau-egun-bartzelonan
 - http://www.setem.org/blog/cat/catalunya/convocatoria-de-premsa-plantem-cara-al-mobile-world-congress
 - http://booleans.cat/2016/02/08/booleans-sobtec/

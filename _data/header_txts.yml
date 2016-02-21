@@ -13,6 +13,15 @@
 - name: Richard Stallman
   msgs:
   - "Richard Stallman hablará sobre las metas y la filosofía del movimiento del Software Libre, y el estado y la historia del sistema operativo GNU, el cual junto con el núcleo Linux, es actualmente utilizado por decenas de millones de personas en todo el mundo."
+  - "Quan es parla d'una Smart City es parla d'una ciutat que controla els veïns i veïnes."
+  - 'Facebook no té usuaris sinó utilitzats'
+  - 'Si perdemos un derecho como el del software libre, el resto de derechos se caen'
+  - 'Educar les criatures amb programari privatiu és educar-les en la dependència'
+  - 'No hay software libre que pueda extraer la info de un blueray. Es un complot contra nuestra libertad'
+  - 'Fer servir un programa privatiu és convidar al propietari a espiar-te i maltractar-te'
+  - "Microsoft conserva una porta oculta que genera indefensió a l'usuari."
+  - "Apple va ser pioner en la censura d'aplicacions."
+  - "El lector de llibres d'Amazon espia els usuaris. Envia informació a l'empresa sobre accions de l'usuari."
 
 - name: Rafael Rico
   msgs:
@@ -40,3 +49,7 @@
   - "L'economia dels grans esdeveniments genera un mercat laboral fluctuant i sense drets."
   - "L'escenografia dels grans esdeveniments aprofundeix en la mercantilització del cos de les dones."
   - "La sobirania tecnològica és un afer tècnic però també de control democràtic de la tecnologia"
+
+- name: Jordi Delgado
+  msgs:
+  - "El Windows 10 es connecta uns 500cops/h a 93Ips (Servidors de Microsoft i altres)"
