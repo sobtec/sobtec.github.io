@@ -38,14 +38,14 @@
     start: "20160220T153000"
     end: "20160220T163000"
     title: "La Governança d'internet - Introductori"
-    description: "Jordi Iparguirre de ISOC-CAT explicarà les bases de la Governançad'Internet, qui fa què i on podem participar i influir en les normatives,protocols... que fan funcionar la xarxa. El nivell seria introductori a fide donar una visió general. "
+    description: "Jordi Iparraguirre de ISOC-CAT explicarà les bases de la Governançad'Internet, qui fa què i on podem participar i influir en les normatives,protocols... que fan funcionar la xarxa. El nivell seria introductori a fide donar una visió general. "
     backgroundColor: "yellow"
     textColor: "black"
   -
     start: "20160220T163000"
     end: "20160220T173000"
     title: "Cryptoparties - Protecció de la intimitat"
-    description: "Jordi Iparguirre de ISOC-CAT farà un taller d'una hora en la ques'explicarà com podem protegir la nostra privadesa i millorar la nostra seguretata Internet."
+    description: "Jordi Iparraguirre de ISOC-CAT farà un taller d'una hora en la ques'explicarà com podem protegir la nostra privadesa i millorar la nostra seguretata Internet."
     backgroundColor: "yellow"
     textColor: "black"
   -
