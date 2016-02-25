@@ -122,6 +122,11 @@ footer {
     }
   }
 }
+@media (min-width: $screen-md-min) {
+  .popover {
+    max-width: 75%;
+  }
+}
 
 /* CSS ANIMATION */
 #link_movetxt {

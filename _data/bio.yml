@@ -14,7 +14,7 @@
   bio: "Voluntari a guifi.net des del 2011, inspirat, arran del 15M, per la necessitat de portar les noves tecnologies a les places i carrers de forma autònoma."
 
 - name: Isabel Muntané
-  bio: "Llicenciada en Periodisme per la UAB, màster en Estudis de Dones, Gènere i Ciutadania -especialitat Crítica i Cultura- per la UB; Actualment col·labora en mitjans de comunicació."
+  bio: "Llicenciada en Periodisme per la UAB, màster en Estudis de Dones, Gènere i Ciutadania -especialitat Crítica i Cultura- per la UB;  postgrau en La transversalitat de gènere i de les dones a les polítiques públiques per la UB i postgrau en Web 2.0. per la UPC. Ha treballat en diferents mitjans de comunicació, especialitzada en temes socials i de gènere, i gabinets de comunicació.<br />És professora associada de la UAB i impulsora i codirectora del Màster Gènere i Comunicació de la UAB. Actualment col·labora en mitjans com el diari ARA, el Periódico Diagonal, eldiario.es i Districte15.<br />Autora de diferents publicacions i II Premi de Gabinets de Comunicació al millor Pla de Comunicació en la categoria d’Innovació i Creativitat, del  Col·legi de Periodistes de Catalunya (2010)."
   url: 'https://twitter.com/imuntan'
 
 - name: Jordi Mallach
@@ -54,7 +54,8 @@
   bio: "Professor de la Facultat d'Informàtica de Barcelona (UPC) i co-fundador de @CryptoPartyBCN"
 
 - name: Jordi Iparraguirre
-  url: 'https://jordiiparraguirre.wordpress.com'
+  bio: "Enginyer informàtic, membre d'ISOC-CAT i co-fundador de @CryptoPartyBCN"
+  url: 'http://iparraguirre.net'
 
 #Entitats
 - name: Memes Feministas
@@ -96,7 +97,8 @@
   url: 'https://guifi.net/'
 
 - name: ISOC-CAT
-  url: 'http://isoc-cat.blogspot.com.es/'
+  bio: 'Capítol català de la Internet Society (@isoccat)'
+  url: 'http://www.isoc.cat/'
 
 - name: Dabne
   url: 'http://www.dabne.net/'
